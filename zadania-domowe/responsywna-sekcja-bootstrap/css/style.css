@@ -1,0 +1,35 @@
+body {
+    color: rgb(148, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+hr {
+    max-width: 40%;
+    margin-bottom: 6%;
+}
+
+div.col-md-4 {
+    padding: 1%;
+}
+
+.bg-circle {
+    background-color: rgb(244, 244, 244);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    display: inline-block;
+}
+
+i.fa-brands {
+    color: rgb(255, 162, 68);
+    line-height: inherit;
+}
+
+h4 {
+    padding: 4%;
+}
