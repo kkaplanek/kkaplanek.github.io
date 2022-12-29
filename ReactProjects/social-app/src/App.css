@@ -1,0 +1,31 @@
+.App {
+  overflow-y: scroll;
+}
+
+.App-header {
+  position: relative;
+  background-color: #B399D4;
+  min-width: 100%;
+  max-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F5E1FD;
+  text-align: center;
+}
+
+.App-link {
+  color: #F5E1FD;
+  text-decoration: none;
+}
+
+.App-header ul {
+  list-style: none;
+}
+
+.App-header ul li {
+  float: left;
+  padding: 25px;
+}

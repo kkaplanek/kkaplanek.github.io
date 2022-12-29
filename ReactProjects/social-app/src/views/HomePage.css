@@ -1,0 +1,63 @@
+.PostContainer {
+    position: relative;
+    color: #cd8fda;
+    font-size: 15px;
+    margin-top: 160px;
+}
+
+.LoadMore {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #CE9DD9;
+    color: #F5E1FD;
+    border: 1px solid #CE9DD9;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.Post {
+    width: 600px;
+    background-color: #F5E1FD;
+    margin: 5px;
+    padding: 10px;
+    border: 2px dashed #B399D4;
+    border-radius: 5px;
+    text-align: start;
+}
+
+.Post .PostData {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.Post .PostData span.UserID {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Post div.PostContent {
+    padding: 10px 5px 10px 70px;
+    font-size: 15px;
+}
+
+.Post aside.UserAvatar img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 2px;
+    border: 1px solid #B399D4;
+    border-radius: 3px;
+}
+
+.Post .PostLikes {
+    text-align: end;
+    font-size: 15px;
+}
+
+.PostWrapper {
+    text-align: center;
+}
